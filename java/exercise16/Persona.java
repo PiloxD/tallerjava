@@ -3,7 +3,7 @@ package com.taller.java.exercise16;
 public class Persona {
     private String nombre;
     private int edad;
-    private int DNI = 111111;
+    private int documento = 111111;
     private String sexo =  hombre;
     private Double peso;
     private Double estatura;
@@ -19,7 +19,7 @@ public class Persona {
     public Persona(String nombreNuevo, int edadNueva, int nuevoDNI, String sexoNuevo, Double pesoNuevo, Double estaturaNueva){
         nombre = nombreNuevo;
         edad = edadNueva;
-        DNI = nuevoDNI;
+        documento = nuevoDNI;
         sexo = sexoNuevo;
         peso = pesoNuevo;
         estatura = estaturaNueva;
